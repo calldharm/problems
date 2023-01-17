@@ -1,3 +1,5 @@
+
+// module "412. Fizz Buzz.js"
 /**
  * @param {number} n
  * @return {string[]}
@@ -17,3 +19,10 @@ var fizzBuzz = function(n) {
     }
     return retArray;
 };
+
+console.log(fizzBuzz(5));
+
+// export default function FizzBuzz () {
+//     console.log(fizzBuzz(5));
+// }
+
