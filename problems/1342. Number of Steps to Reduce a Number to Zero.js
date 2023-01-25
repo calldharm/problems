@@ -18,4 +18,13 @@ var numberOfSteps = function(num, step=1) {
     } 
     // console.log('stepMain:' + step);
     return step; 
+
+    // good solution
+    // int step=0;
+    //     while(num!=0) {
+    //         if(num%2==0) num/=2;
+    //         else num--;
+    //         step++;
+    //     }
+    //     return step;
 };
