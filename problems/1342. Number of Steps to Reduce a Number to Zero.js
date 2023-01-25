@@ -3,6 +3,7 @@
  * @return {number}
  */
 var numberOfSteps = function(num, step=1) {
+    if(!num) return 0;
     let newNum = 0;
     newNum = (num%2 == 0) ? (newNum = num/2) : (newNum = (num - 1));
 
